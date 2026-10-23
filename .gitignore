@@ -1,0 +1,21 @@
+# Local configuration, credentials and generated files
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.kubeconfig
+kubeconfig
+values.local.yaml
+values.private.yaml
+values.secret.yaml
+values.secrets.yaml
+rendered*.yaml
+*.tgz
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
